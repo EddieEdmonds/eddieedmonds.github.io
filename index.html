@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tyler Edmonds</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link href="css\style.css" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://kit.fontawesome.com/0911932313.js" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+    
+    <!-- Navigation -->
+	<!-- navbar-expand-md uses the md bootstrap breakpoint for when to change the navbar  -->
+	<nav class="navbar navbar-expand-md navbar-light">
+		<div class="container-fluid">
+			<img class="navbar-brand" src="img/nameLogo.png">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+						<a class="nav-link" href="files\TylerEdmonds_Resume.pdf" target="_blank">Resume</a> 
+                    </li>
+                    <li class="nav-item">
+						<a class="nav-link" href="#skills">Skills</a> 
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projects">Projects</a> 
+					</li>
+
+				</ul>
+			</div>
+		</div>
+    </nav>
+    
+    <!-- Wrapper -->
+    <div class="wrapper">
+        <!-- top container -->
+        <section class="top-container">
+            <header class="showcase">
+                <div class="highlight-box">
+                    <h1>Software Developer</h1>  
+                    <h3>bringing technical skill and effective interaction to the table</h3>
+                </div>
+            </header>
+
+            <div class="top-box top-box-a highlight-dark">
+                <a href="https://github.com/EddieEdmonds?tab=repositories" class="connect" target="_blank">
+                    <i class="fab fa-github fa-4x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/tyler-edmonds-33678b49/" class="connect" target="_blank">
+                    <i class="fab fa-linkedin fa-4x"></i>
+                </a>
+                <a href="mailto:tyler.g.edmonds@gmail.com" class="connect">
+                    <i class="fas fa-envelope fa-4x"></i>
+                </a>
+            </div>
+        </section>
+
+        <div id="skills">
+            <hr>
+            <h1 style="text-align: center;" >Skills</h1>
+            <hr>
+        </div>
+
+        <!-- skill boxes section -->
+        <section class="boxes">
+            <div class="box">
+                <i class="fab fa-java fa-2x"></i>
+                <h3>Java</h3>
+                <p>My BS in Software Development focused on Java. Most of my personal projects have been created in java as well.</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-python fa-2x"></i>
+                <h3>Python</h3>
+                <p>I have created small projects in Python but am eager to learn more and dive into some larger projects.</p>
+            </div>
+            <div class="box">
+                <i class="far fa-object-group fa-2x"></i>
+                <h3>OOP</h3>
+                <p>Object Oriented Programming is at the heart of most of what I do. Learning the fundamental building blocks has allowed me to grow as a developer.</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-html5 fa-2x"></i>
+                <h3>HTML5</h3>
+                <p>I have a CIW HTML5 certification and this site is completely built in HTML5 and CSS3.</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-css3 fa-2x"></i>
+                <h3>CSS3</h3>
+                <p>I have a CIW CSS3 certification and built this entire site with a combo of HTML5 and CSS3. </p>
+            </div>
+            
+            <div class="box">
+                <i class="fab fa-android fa-2x"></i>
+                <h3>Android</h3>
+                <p>On a personal level, I enjoy creating Android applications. I have an application currently live on the Android Play Store 100% written by me.</p>
+            </div>
+        </section>
+
+        <!-- project cards section -->
+        <div id="projects">
+            <hr>
+            <h1 style="text-align: center;">Projects</h1>
+            <hr>
+        </div>
+
+        <section class="cards" >            
+            <div class="card">
+                <img src="img/leaseTracker.png" alt="" class="card__image">
+                <div class="card__content">
+                    <p>
+                       The lease tracker app was created out of a need to track the mileage on my own leased vehicle. You enter basic information about the vehicle and then enter current mileage and let the app do the rest.  The application comes with a local SQLite db so your data never leaves the safety of your device. The application has CRUD functionality and allows for multiple vhicles along with multiple users. 
+                    </p>
+                </div>
+                <div class="card__info">
+                    <a href="https://github.com/EddieEdmonds/TE_LeaseTracker_C868" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="https://play.google.com/store/apps/details?id=com.atp.LeaseTracker" target="_blank"><i class="fab fa-android fa-2x"></i></a>
+                </div>
+                
+            </div>
+            <div class="card">
+                <img src="img/courseTracker.png" alt="" class="card__image">
+                <div class="card__content">
+                    <p>
+                        The Course Tracker Android application was a school project in the Android Development course. It also utilizes a local SQLite db and has CRUD functionality. I utilized the MVVM architecture design within this application in order to help create a maintainable and secure application.
+                    </p>
+                </div>
+                <div class="card__info">
+                    <a href="https://github.com/EddieEdmonds/TE_Scheduler_C196" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                    
+                </div>
+                
+            </div>
+            <div class="card">
+                <img src="img/javaScheduler.png" alt="" class="card__image">
+                <div class="card__content">
+                    <p>
+                        The Appointment Scheduler is a desktop application developed during my degree program.  It is a developed completely in Java with the GUI created in the Scene Builder application utilizing XML.  This application connected to a remote MySql db and had CRUD functionality.
+                    </p>
+                </div>
+                <div class="card__info">
+                    <a href="https://github.com/EddieEdmonds/TE_Scheduler_C195" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                </div>
+                
+            </div>
+            <div class="card">
+                <img src="img/indianalytics.png" alt="" class="card__image">
+                <div class="card__content">
+                    <p>
+                        Indianalytics is a Data Analytics consulting firm that I have had the pleasure to work with in the recent past. I created this simple informational website for them utilizing CSS Grid and HTML5.  Design work is not my forte, but I did design the Indianalytics logo and the website layout myself. 
+                    </p>
+                </div>
+                <div class="card__info">
+                    <a href="https://github.com/EddieEdmonds/indianalytics" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="http://indianalytics.com/" target="_blank"><i class="fas fa-globe-americas fa-2x"></i></a>
+                </div>
+            </div>
+            
+                    
+        </section>
+
+        
+    </div> <!-- wrapper ends -->
+
+    <footer>
+        <p>Made by Tyler Edmonds <br>
+        <a href="mailto:tyler.g.edmonds@gmail.com" style="text-decoration: none; color: var(--light);" class="">tyler.g.edmonds@gmail.com</a></p>
+    </footer>
+
+
+    </body>
+</html>
